@@ -1,0 +1,19 @@
+{
+  "name": "regex1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "node build.js",
+    "run": "node ./dist/bundle.js"
+  },
+  "author": "Justin Heyes-Jones",
+  "license": "ISC",
+  "dependencies": {
+    "@eslint-community/regexpp": "^4.8.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.2",
+    "typescript": "^5.2.2"
+  }
+}

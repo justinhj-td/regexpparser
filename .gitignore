@@ -1,0 +1,27 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore environment variables file
+.env
+
+# Ignore build output folder
+dist/
+
+# Ignore cache files
+.npm
+.npmrc
+.npm-debug.log*
+.yarn-cache
+.yarn-debug.log*
+.yarn-error.log*
+
+# Ignore IDE and editor files
+.idea
+.vscode
+*.swp
+*.swo
+*.swn
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
